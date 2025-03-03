@@ -96,46 +96,21 @@ const IndexPage: React.FC<IndexProps> = ({ stats }) => {
 				<Heading as="h2" variant="site-intro">
 					Currently, I&apos;m based in beautiful Portland, Oregon.
 				</Heading>{' '}
+				<br></br>
+				<br></br>
+				{' '}
+				<Heading as="h2" variant="site-intro">
+					Check out our cool (really cool) tool:{' '}
+					<Link href="https://chat.justice.rest">JR Chat</Link>, an ultra-minimal platform for lawmakers (WIP)!
+				</Heading>{' '}
+				<br></br>
+				<br></br>
+				<b>// Don't be shy 🤭</b>
+				<br></br>
+				<br></br>
 				<Text as="p" variant="site-intro">
-					In the last 30 days, I&rsquo;ve pushed{' '}
-					<Link href="https://github.com/lowmess">
-						<ValueCount value={commits} singular="commit" plural="commits" />
-					</Link>{' '}
-					to GitHub, sent{' '}
-					<Link href="https://twitter.com/lowmess">
-						<ValueCount value={tweets} singular="tweet" plural="tweets" />
-					</Link>
-					, taken <ValueCount value={steps} singular="step" plural="steps" />,
-					and visited{' '}
-					<ValueCount value={places} singular="place" plural="places" />.
-					{album.name && album.artist && (
-						<React.Fragment>
-							{' '}
-							My most played album is{' '}
-							<Link href="https://www.last.fm/user/lowmess/library/albums?date_preset=LAST_30_DAYS">
-								&ldquo;{album.name}&rdquo; by {album.artist}
-							</Link>
-							, and I&rsquo;ve listened to{' '}
-							<Link href="https://www.last.fm/user/lowmess">
-								<ValueCount value={songs} singular="song" plural="songs" />
-							</Link>{' '}
-							overall.
-						</React.Fragment>
-					)}
-					{books.length > 0 && (
-						<React.Fragment>
-							{' '}
-							I am reading{' '}
-							<Link href="https://www.goodreads.com/user/show/27057705-alec-lomas">
-								<ValueCount
-									value={books.length}
-									singular="book"
-									plural="books"
-								/>
-							</Link>{' '}
-							at the moment: <BooksToSentence books={books} />.
-						</React.Fragment>
-					)}
+					If your interested in knowing more about us or have a cool idea to dicuss,{' '}
+					contact us [at] <Link href="mailto:solomon@bublr.life">solomon@bublr.life</Link>
 				</Text>
 			</Text>
 		</Container>
