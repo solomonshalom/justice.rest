@@ -84,7 +84,6 @@ const IndexPage: React.FC<IndexProps> = ({ stats }) => {
 				Introduction
 			</Text>
 
-			{/* The `Text` wrapper makes sure spaces are consistently sized */}
 			<Text as="div" variant="site-intro" sx={{ display: 'contents' }}>
 			<Heading as="h1" variant="site-intro" sx={{ fontWeight: 'bold' }}>
 				We&rsquo;re JusticeRest, and we craft tools that promote equality, morality and justice 
