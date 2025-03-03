@@ -93,10 +93,6 @@ const IndexPage: React.FC<IndexProps> = ({ stats }) => {
 				</Link> 
 			</Heading>
 				<br></br>
-				<Heading as="h2" variant="site-intro">
-					Currently, I&apos;m based in beautiful Portland, Oregon.
-				</Heading>{' '}
-				<br></br>
 				<br></br>
 				{' '}
 				<Heading as="h2" variant="site-intro">
@@ -105,7 +101,7 @@ const IndexPage: React.FC<IndexProps> = ({ stats }) => {
 				</Heading>{' '}
 				<br></br>
 				<br></br>
-				<b>// Don't be shy 🤭</b>
+				<b>// Don&apos;t be shy 🤭</b>
 				<br></br>
 				<br></br>
 				<Text as="p" variant="site-intro">
