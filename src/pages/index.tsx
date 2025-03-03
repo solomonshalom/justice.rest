@@ -100,7 +100,7 @@ const IndexPage: React.FC<IndexProps> = ({ stats }) => {
 				</Heading>{' '}
 				<br></br>
 				<br></br>
-				<b>// Don&apos;t be shy <span role="img" aria-label="face with hand over mouth emoji expressing shyness or surprise">🤭</span></b>
+				<b>Don&apos;t be shy <span role="img" aria-label="face with hand over mouth emoji expressing shyness or surprise">🤭</span></b>
 				<br></br>
 				<br></br>
 				<Text as="p" variant="site-intro">
