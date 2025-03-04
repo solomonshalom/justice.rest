@@ -95,7 +95,7 @@ const IndexPage: React.FC<IndexProps> = ({ stats }) => {
 				<br></br>
 				{' '}
 				<Heading as="h2" variant="site-intro">
-					We&apos;e building the AirDrop of Justice! Drop your problems, we&apos;ll pick em up for you <span role="img" aria-label="wink emoji">😉</span>!{' '}
+					We&apos;e building the <Link href="#">AirDrop of Justice</Link>! Drop your problems, we&apos;ll pick&apos;em up for you <span role="img" aria-label="wink emoji">😉</span>!{' '}
 				</Heading>{' '}
 				<br></br>
 				<br></br>
