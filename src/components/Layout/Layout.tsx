@@ -36,6 +36,24 @@ const Layout: React.FC = ({ children }) => {
 					{children}
 				</Box>
 
+				{/* Example of an image with background color and inline SVG */}
+				<Box 
+					sx={{
+						width: '100%', 
+						height: '200px', 
+						backgroundColor: '#fc7700', // Set the background color
+						backgroundImage: 'url(topography.svg)', // Use an SVG as the background
+						backgroundSize: 'contain',
+						backgroundRepeat: 'no-repeat',
+						backgroundPosition: 'center',
+					}}
+				>
+					{/* Alternatively, you can place inline SVG directly inside Box */}
+					{/* <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
+						<circle cx="50" cy="50" r="40" stroke="black" strokeWidth="3" fill="red" />
+					</svg> */}
+				</Box>
+
 				<Footer mt={5} />
 			</Flex>
 		</React.Fragment>
