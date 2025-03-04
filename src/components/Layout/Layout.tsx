@@ -42,7 +42,7 @@ const Layout: React.FC = ({ children }) => {
 						width: '100%', 
 						height: '200px', 
 						backgroundColor: '#fc7700', // Set the background color
-						backgroundImage: 'url(topography.svg)', // Use an SVG as the background
+						backgroundImage: 'url(/images/topography.svg)', // Use an SVG as the background
 						backgroundSize: 'contain',
 						backgroundRepeat: 'no-repeat',
 						backgroundPosition: 'center',
