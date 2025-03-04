@@ -19,7 +19,7 @@ const FooterLink: React.FC<FooterLinkProps> = ({ href, external, ...props }) =>
 	)
 
 const Footer: React.FC<BoxProps> = (props) => (
-	<Box as="footer" bg="muted" py={5} {...props}>
+	<Box as="footer" bg="muted" py={1} {...props}>
 		<Container>
 		</Container>
 	</Box>
