@@ -95,8 +95,7 @@ const IndexPage: React.FC<IndexProps> = ({ stats }) => {
 				<br></br>
 				{' '}
 				<Heading as="h2" variant="site-intro">
-					Check out our cool (really cool) tool:{' '}
-					<Link href="https://chat.justice.rest">JR Chat</Link>, an ultra-minimal platform for lawmakers (WIP)!
+					We're building the AirDrop of Justice! Drop your problems, we'll pick em up for you <span role="img" aria-label="wink emoji">😉</span>!{' '}
 				</Heading>{' '}
 				<br></br>
 				<br></br>
@@ -104,8 +103,8 @@ const IndexPage: React.FC<IndexProps> = ({ stats }) => {
 				<br></br>
 				<br></br>
 				<Text as="p" variant="site-intro">
-					If your interested in knowing more about us or have a cool idea to dicuss,{' '}
-					contact us [at] <Link href="mailto:solomon@bublr.life">solomon@bublr.life</Link>
+					Join our waitlist here or if you want to know more,{' '}
+					drop a DM [at] <Link href="mailto:solomon@bublr.life">solomon@bublr.life</Link>
 				</Text>
 			</Text>
 		</Container>
