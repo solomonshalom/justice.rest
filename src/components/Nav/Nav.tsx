@@ -57,25 +57,6 @@ const Nav: React.FC<BoxProps> = ({ sx, ...props }) => {
 								Home
 							</NavLink>
 						</li>
-
-						<li>
-							<NavLink
-								href="/projects"
-								aria-current={pathname.includes('/projects') ? 'page' : null}
-								mr={[1, 2]}
-							>
-								Projects
-							</NavLink>
-						</li>
-
-						<li>
-							<NavLink
-								href="/blog"
-								aria-current={pathname.includes('/blog') ? 'page' : null}
-							>
-								Blog
-							</NavLink>
-						</li>
 					</Flex>
 
 					<ColorModeToggle ml={[2, 3]} />
