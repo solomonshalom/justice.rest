@@ -75,7 +75,7 @@ const LegalPage: React.FC = () => {
               If you have any questions about these Terms or Privacy Policy, please contact us at <Link href="mailto:bonjour@justice.rest">bonjour@justice.rest</Link>.
             </Text>
             <br />
-            <br >
+            <br />
             <Text sx={{ marginTop: 3, fontSize: 0, color: 'muted-text' }}>
               Last Updated: March 8, 2025
             </Text>
