@@ -1,7 +1,7 @@
 {
-  "name": "lowmess",
+  "name": "justicerest",
   "version": "4.3.0",
-  "description": "The website and portfolio of Alec Lomas",
+  "description": "The home on the internet for JusticeRest",
   "scripts": {
     "start": "next dev",
     "prebuild": "node scripts/generate-sitemap && node scripts/generate-rss",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lowmess/lowmess.git"
+    "url": "git+https://github.com/solomonshalom/justice.rest"
   },
   "keywords": [
     "portfolio",
@@ -21,7 +21,7 @@
   "author": "Alec Lomas",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lowmess/lowmess/issues"
+    "url": "https://github.com/solomonshalom/justicerest/issues"
   },
   "homepage": "https://justice.rest",
   "dependencies": {

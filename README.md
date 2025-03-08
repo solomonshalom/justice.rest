@@ -1,10 +1,10 @@
-# lowmess.com
+# justice.rest
 
 ## Installing
 
 ```bash
-git clone https://github.com/lowmess/lowmess.git
-cd lowmess
+git clone https://github.com/solomonshalom/justice.rest
+cd justice.rest
 npm i
 ```
 

@@ -1,4 +1,4 @@
 User-Agent: *
 Disallow: /
 
-Sitemap: https://lowmess.com/sitemap.xml
+Sitemap: https://justice.rest/sitemap.xml

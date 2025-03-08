@@ -95,7 +95,7 @@ const IndexPage: React.FC<IndexProps> = ({ stats }) => {
 				<br></br>
 				{' '}
 				<Heading as="h2" variant="site-intro">
-					We&apos;e building the <Link href="#">AirDrop of Justice</Link>! Drop your problems, we&apos;ll pick&apos;em up for you <span role="img" aria-label="wink emoji">😉</span>!{' '}
+					We&apos;e building the <Link href="#">DropBox of Law</Link>! Drop your cases, we&apos;ll pick, sort, and analyze&apos;em for you <span role="img" aria-label="wink emoji">😉</span>!{' '}
 				</Heading>{' '}
 				<br></br>
 				<br></br>
@@ -103,8 +103,8 @@ const IndexPage: React.FC<IndexProps> = ({ stats }) => {
 				<br></br>
 				<br></br>
 				<Text as="p" variant="site-intro">
-					Join our waitlist here or if you want to know more,{' '}
-					drop a DM [at] <Link href="mailto:solomon@bublr.life">solomon@bublr.life</Link>
+					Join our <Link href="https://waitlist.justice.rest">waitlist</Link> here or if you want to know more,{' '}
+					drop a DM [at] <Link href="mailto:solomon@justice.rest">solomon@justice.rest</Link>
 				</Text>
 			</Text>
 		</Container>
