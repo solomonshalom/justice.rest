@@ -81,7 +81,7 @@ const IndexPage: React.FC<IndexProps> = ({ stats }) => {
 	const [timeLeft, setTimeLeft] = React.useState('');
 
 	// Set the launch date (example: 1 week from today or a fixed date)
-	const launchDate = new Date('2025-05-03T00:00:00Z'); // <-- Adjust this as needed!
+	const launchDate = new Date('2025-05-04T00:00:00Z'); // <-- Adjust this as needed!
 
 	React.useEffect(() => {
 		const interval = setInterval(() => {
